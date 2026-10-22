@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <INH_WorldTitle>Inheritance — World</INH_WorldTitle>
+  <INH_WorldNewWorld>Add six-nation abstract cities to newly generated worlds</INH_WorldNewWorld>
+  <INH_WorldScope>Existing save modes remain fixed. City visits, war AI and full faction replacement come in later phases.</INH_WorldScope>
+  <INH_WorldOverview>Six-nation overview</INH_WorldOverview>
+  <INH_WorldMapNote>Colors show the original cultural regions. Current controllers are listed below. This is a planar projection of the planet and an abstract-world prototype.</INH_WorldMapNote>
+  <INH_WorldPeace>At peace</INH_WorldPeace>
+  <INH_WorldCapital>Capital</INH_WorldCapital>
+  <INH_WorldTemporary>Temporary capital</INH_WorldTemporary>
+  <INH_WorldIncome>Total abstract income</INH_WorldIncome>
+  <INH_WorldLocation>World coordinate {0}</INH_WorldLocation>
+  <INH_Culture_starmound>Starmound culture</INH_Culture_starmound>
+  <INH_Culture_irontree>Irontree culture</INH_Culture_irontree>
+  <INH_Culture_forge>Forge culture</INH_Culture_forge>
+  <INH_Culture_whitecrown>Whitecrown culture</INH_Culture_whitecrown>
+  <INH_Culture_tidering>Tidering culture</INH_Culture_tidering>
+  <INH_Culture_skymark>Skymark culture</INH_Culture_skymark>
+</LanguageData>

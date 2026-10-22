@@ -1,0 +1,31 @@
+# 食料受け渡しに先立つ保存入口の試作
+
+2026-10-10。T2の前提として独立試作をコンパイルし、31項目の純粋ロジック試験が成功した。実ゲームの保存呼出し、食品の移動、製品への導入はまだ行っていない。0.4.16製品と0.4.17候補には含まれない。
+
+元食品をsourceから除去して宛先へ追加する途中には、どちらのinventoryにも属さない時間がある。ここで通知から保存が再入すると、元物品を深い保存から失うおそれがある。本体のSaveGameは例外を内部で捕捉し、Scribe側もExposeDataの例外を捕捉するため、CoreのExposeDataで例外を出すだけでは正常保存の保全を証明できない。
+
+この試作は実本体の `GameDataSaveLoader.SaveGame(string)` の先頭をHarmonyのboolean prefixで保護する。未確定の受け渡しを示すscopeが開いている間は、保存先の解決・SafeSaverの整理・Scribeの開始より前に拒否する。保存が既に認められた直後の区間にも専用ticketを保持し、その間に新しい受け渡しを開始させない。
+
+scopeを閉じるには、同じ元object・native ID・stack全量・非Destroyed、一意のsourceまたはdestination所有、通知完了、安定したjournalの明示確認を必要とする。nested scopeは元scopeと同じ固定identityを使い、順に正常終了する。例外や未証明のままfinallyへ入っても保存禁止を解除せず、元の例外と未解決理由を保持する。未知の所有を元に戻したと推測するAPIや強制resetは設けていない。
+
+ここでの通知完了とjournal確認はcoordinatorが証明する入力であり、この試作がT2の永続journalやrollbackを実装したわけではない。元食品の実際の移管と例外後の保持責任は別工程である。
+
+| 固定資料 | SHA256 |
+| --- | --- |
+| work/p04-native-handoff-save-entry-stage/StageSeal.json | 8A972B7CEB664BED9BB64DE5BDBABF213388134D0A476D6F57AA3B379A48BFAC |
+| 試作adapter DLL | 9659790FE46BCD5788B37E0211A44F851A8291DF296FBEFE146460D00E4E9290 |
+| 使用した本体 Assembly-CSharp.dll | 5CF1B5BE399D5B1C9C56CA72C9D35B4ECF307FEACF5859D04AC5A1AA5926356A |
+| 使用したinstalled Harmony DLL | 353DAAFEC180BB8E7BBE4DA78F2A7CDC78067392E3A4E79DC8E7AF295F2371E6 |
+
+初回28項目のsource・buildはAttempt-001に保持し、finalizerのcleanup失敗時にも元例外を保持する修正と3負例をAttempt-002へ分けた。最終31項目ではnested順序、異なるworld・worker拒否、未確定finally、所有不明、観察からの再入、保存ticket、cleanupと診断の二重失敗を確認した。これらはHarmonyの実 interceptionやファイル保全の実測結果ではない。
+
+次はRootだけが隔離ゲームを起動し、DLCなし／対象4DLCで同名保存の元bytesと保存directory全体、新しい保存先の不存在、lastSaveTickとScribe mode、拒否回数、nested・観察・finally後の拒否を確認する。正常な明示closureの後は実保存を認め、その出力を別processで再読する。試験のjournal確認は移動なしのtest-only確認と記録する。
+
+SaveGameはvoidなので、拒否しても呼び出し元が成功表示を出す可能性がある。通常画面への失敗通知とautosave方針は製品化前に接続する必要がある。また、この試作は開始時に未知のSaveGame patchを拒否するが、その後に任意のpatchを追加した第三者MODや直接SafeSaver/Scribeを呼ぶ入口、ディスク障害まで含む原子的保存を保証しない。
+
+実装順は [T0〜T4の指示](P04SupplyTransferImplementationGate.md) と [native API調査](P04DelegatedSupplyNativeApi.md) を維持する。通常の委任生活・治療・生産を実装済みと扱わない。
+
+2026-10-11追記: native-v3初回は基本モードで4DLCを本体が自動有効化し、範囲判定に失敗した。描画なしの起動によるpost-long-event例外も残っている。実ゲーム成功はゼロで、原ソース・DLL・失敗記録・保存データを保全した。独立v4では初期設定に既知の4DLC一覧を明記し、描画ありで起動する。ソースとDLLは同一で、通常保存の拒否と別起動再読はこれから再検証する。候補17の57件へ試作の成功数を加えない。
+
+2026-10-11 Native-v4全6完成: Root four batch session5964 exit0、basic/four各warm/cold/failure計6actualcleanPASS。各3元Result/Started/全raw/native/config前後/current+kept output・原input/sourcegame/reference/candidate fixed3DLL一致、RootVerified-v4二つ生成。両Runtimeはexact guarded cleanup、Before/Afterで元原物の当時保全を確認。新native試作6を候補17/57へ合算しない。食品操作なし、test-only journalack、通常UI caller成功表示/auto-save policy/directScribe/第三者patch/fullflush原子性/T2 durable journalは未実装。専用小証拠collector確定待ち。
+Full57新v2 source7D2B94F994032C85F212DC919D9782F223F96343EF5BEA8CCB52C64AE8810911、68意味保持/拒否focusedPASS、Root診断actual/expected10差分再比較PASS。Root独立read review後、全ゲーム終了状態でsession49743 -WriteReceipt実行中。原1D17/helper/aggregate/実ゲーム資料不変、まだreceipt/snapshot/ZIP成功宣言しない。

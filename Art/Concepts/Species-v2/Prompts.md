@@ -1,0 +1,31 @@
+# 使用した生成指示
+
+Built-in image_gen / 2026-10-10
+
+## D
+
+Use case: stylized-concept.
+Asset type: new alternative species concept sheet for the RimWorld mod 継承圏, direction D.
+Create a landscape sheet of SIX distinct adult humanoid species, arranged in a clear 3-column by 2-row grid on an absolutely plain warm-white background. One complete full-body character in each cell, with a small separate head study beside it. Labels only D1, D2, D3, D4, D5, D6 in plain black letters, in reading order. No title, decorative border or background scene.
+The user disliked the generic AI illustration feel of previous polished fantasy anatomy sheets. Draw as a restrained independent game artist's 2D character-design exploration: deliberate slightly uneven ink contours, graphic flat opaque colour, one small flat shadow tone, selective angular shapes, very sparse interior lines. No gradients, simulated paper texture, crosshatching, fine patterns, glossy highlights, ambient occlusion, rim lighting or realistic muscular rendering. No anime beauty faces, no perfect fashion-model bodies. Modest simple sleeveless work tunics and knee-length trousers. Functional plain clothing, not elaborate armor. Adults with distinct weight, face shape and posture, not children. Faces use small simple eyes and deliberately individual nose/jaw shapes. Each species has a clear anatomical hallmark and at most four broad colours.
+D1 top left — Stargrave inheritor: very large broad stone-skinned humanoid with a squat rectangular head, recessed small eyes, nearly no visible neck, enormous square hands. Dark charcoal basalt skin with only THREE broad pale broken seams, no all-over vein web or stone-muscle plates. Ochre utilitarian tunic. Quiet heavy stance, thick short lower legs.
+D2 top middle — Ironwood folk: wiry adult with muted olive skin, long hooked nose, dark brown root-like hair tied into two practical bunches, TWO bark patches at elbows, a single asymmetrical small leaf sprig. Faded cream tunic. No ornate leafy crown or vine filigree.
+D3 top right — Hearth clan: short stocky adult, warm dull terracotta skin, wide flat jaw, dark cropped hair, broad forearms and ONE small paired groove at the neck hinting heat physiology. Slate-blue tunic. No glowing cracks, fiery eyes or metallic shine.
+D4 bottom left — Whitecrown beast noble: upright humanoid with short goat-like muzzle, cream fur limited to head and forearms, two thick black horns sweeping backward, large horizontal ears and coarse brow. Deep muted burgundy tunic. Calm rather than majestic. No regal ornaments, delicate antler forest or realistic fur strands.
+D5 bottom middle — Tidering folk: adult female with blue-grey skin, broad smooth cheeks, tiny short ears shaped like fins, close-cropped dark moss hair, TWO flat gill marks each side of neck. Dusty rust tunic. Expressive plain dark eyes, no iridescence, scales carpet or beautiful mermaid motif.
+D6 bottom right — Skymarker folk: slim long-limbed adult with warm grey-violet skin, a relatively flat wide head, two SHORT blunt sensory feelers angled forward from temples, short cream hair and small dark eyes. Muted sage tunic. Curious understated posture. Not a generic elf; no long pointed ears or intricate sci-fi hardware.
+All six are new alternatives, not recolours of a single human template. Stargrave visibly larger in body mass; equal panel sizes do not imply equal biological sizes. Keep silhouette readability and species anatomy ahead of costume. This is a concept choice sheet, not production-ready HAR textures.
+
+## E
+
+Use case: stylized-concept.
+Asset type: new alternative species comparison sheet for the RimWorld mod 継承圏, direction E, close to colony-game pawn artwork.
+Create a landscape 3-column by 2-row comparison board of SIX species on a plain warm light-grey background. Labels only E1, E2, E3, E4, E5, E6 in reading order. Each cell shows one enlarged clean FRONT/SOUTH facing game pawn mockup and a small side-facing HEAD study. Head and torso connected; stylized compact pawn proportions, simplified short bodies; NO visible separate arms, hands, feet or legs in the pawn view. These are top-down colony simulation pieces, not full-body cartoon people or tiny chibi dolls. One simple tunic per pawn. Use flat digital ink silhouettes with dark charcoal outlines of consistent thickness, two or three flat interior colour regions, no texture, no painterly rendering or gradients. Just enough uneven shape design to feel consciously drawn rather than procedurally embellished. The requested art is slightly more informative than vanilla RimWorld but very sparse and clear at normal game zoom.
+E1 — Stargrave: a massive broad dark-grey pawn with flat-topped angular head, extremely wide shoulders, tiny inset eyes, one broken cream seam across cheek and one at the chest edge. Simple faded ochre tunic. Body mass 1.5 times neighboring pawn, no mosaic texture.
+E2 — Ironwood: narrow moss-green pawn with a long wedge-shaped nose, compact root-braid hair silhouette sweeping to one side, ONE broad bark mark at temple, one small leaf at braid tip. Simple off-white tunic.
+E3 — Hearth: squat broad burnt-copper pawn, square chin, blunt dark cropped hair, two tiny dark throat slots. Simple blue-grey tunic. No red glow or metal reflections.
+E4 — Whitecrown: bone-white fur head, compact goat muzzle, two solid backward-swept dark horns, horizontally spread ears, tiny eyes. Simple muted red tunic. Three fur contour notches maximum; no intricate strands.
+E5 — Tidering: round blue-grey head with broad forehead, short dark green hair cap, two small lateral fin ears, two short neck gill bars. Simple rust tunic. No jewelry or fish-scale pattern.
+E6 — Skymarker: broad grey-violet head with cream straight cropped hair, two SHORT stub sensory antennae, narrow torso, small plain eyes. Simple sage tunic. No fantasy elf ears.
+Anatomy must remain distinct in silhouette and with colour switched off. No glossy anime faces, ornamental runes, random straps, floating effects, gold trim, dense fabric folds, shiny lighting or uniform beautiful humanoids. No HUD, screenshot, logos, watermark, or fake production claims. This board is a visual mockup for selection; final south/east/north HAR texture layers and clothes compatibility are not yet tested.
+

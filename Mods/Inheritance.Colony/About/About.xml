@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>継承圏 — Colony</name>
+  <author>Inheritance Project</author>
+  <packageId>inheritance.colony</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modVersion>0.4.16</modVersion>
+  <modDependencies>
+    <li>
+      <packageId>inheritance.core</packageId>
+      <displayName>継承圏 — Core 0.4.13</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>inheritance.core</li>
+  </loadAfter>
+  <description>連絡局の試作版。直接拠点の住民・動物・物資の選択、実物輸送の予約・出発・到着・取消と保存復旧を提供します。MOD設定で実物輸送を有効にできます。装備・所持品を含む荷重確認、出発地での食料の日数目安、旅用食料の減量、配送損失の保留、不足を確定して残量で納品する操作に対応。同じ拠点内の元住民・元動物を装備と所持品ごと凍結保管し、元のマップへ戻す試作も任意に有効化できます。保管中は通常の食事・生物学的な老化・生産が進まず、暦年齢は世界時計に従います。設定を無効にしても保管済みの個体を戻せます。委任中の個人食料から日次維持費を自動精算する通常画面を追加しました。開始・停止・不足保留・現在日からの明示再開と、途中の食料支払いの復旧に対応します。通常画面から停止中の元隊列の現在地を委任地点に登録し、元住民・動物を入庫して同じ元隊列へ返す管理も任意に有効化できます。最後の人間護衛と途中処理・輸送予約を保護し、無効化後も返還・途中移管の再開を利用できます。使用済み食料の処分・通常の委任生活と生産は制作中です。Worldは必須ではありません。</description>
+</ModMetaData>
+

@@ -1,0 +1,92 @@
+﻿<LanguageData>
+  <INH_ColonyTitle>継承圏 — Colony</INH_ColonyTitle>
+  <INH_ColonyPrototype>連絡局の試作版 0.4.9。登録した直接拠点の間で住民・動物・物資を輸送できます。任意で有効にする拠点内保管では、住民や動物を装備・所持品ごと個別に保管し、同じマップへ戻せます。</INH_ColonyPrototype>
+  <INH_ColonyRegisterMaps>現在のプレイヤー拠点を連絡局へ登録する</INH_ColonyRegisterMaps>
+  <INH_ColonyOverview>連絡局の拠点と輸送</INH_ColonyOverview>
+  <INH_ColonyDirect>直接操作</INH_ColonyDirect>
+  <INH_ColonyDelegated>委任</INH_ColonyDelegated>
+  <INH_ColonyNoTransport>登録された輸送はありません。</INH_ColonyNoTransport>
+  <INH_ColonyMapStock>住民 {0}人・マップ上の鋼鉄 {1}個</INH_ColonyMapStock>
+  <INH_Transport_Planning>準備中</INH_Transport_Planning>
+  <INH_Transport_Reserved>予約済み</INH_Transport_Reserved>
+  <INH_Transport_Departing>出発処理中</INH_Transport_Departing>
+  <INH_Transport_InTransit>輸送中</INH_Transport_InTransit>
+  <INH_Transport_Arriving>到着処理中</INH_Transport_Arriving>
+  <INH_Transport_Arrived>到着済み</INH_Transport_Arrived>
+  <INH_Transport_Cancelling>取消処理中</INH_Transport_Cancelling>
+  <INH_Transport_Cancelled>取消済み</INH_Transport_Cancelled>
+  <INH_ColonyPhysicalRow>{0} → {1}  |  実物輸送・{2}人／依頼 {3}個  |  {4}</INH_ColonyPhysicalRow>
+  <INH_ColonyPhysicalAttention>住民または積荷の状況が変わったため保留中。現物を確認してください。</INH_ColonyPhysicalAttention>
+  <INH_Physical_Reserved>予約済み</INH_Physical_Reserved>
+  <INH_Physical_Departing>出発確認中</INH_Physical_Departing>
+  <INH_Physical_InTransit>輸送中</INH_Physical_InTransit>
+  <INH_Physical_Arriving>到着確認中</INH_Physical_Arriving>
+  <INH_Physical_Arrived>到着済み</INH_Physical_Arrived>
+  <INH_Physical_Cancelled>取消済み</INH_Physical_Cancelled>
+  <INH_Physical_NeedsAttention>要確認</INH_Physical_NeedsAttention>
+  <INH_ColonyEnablePhysical>実物輸送の試作を有効にする</INH_ColonyEnablePhysical>
+  <INH_ColonyEnablePhysicalHint>登録した直接拠点の間で住民と物資を運びます。委任拠点への実物輸送はまだ利用できません。</INH_ColonyEnablePhysicalHint>
+  <INH_ColonyNewPhysical>輸送を手配する</INH_ColonyNewPhysical>
+  <INH_ColonyDispatch>出発</INH_ColonyDispatch>
+  <INH_ColonyCancel>予約を取り消す</INH_ColonyCancel>
+  <INH_ColonyResumeRoute>経路を再開</INH_ColonyResumeRoute>
+  <INH_ColonyEnter>目的地へ入る</INH_ColonyEnter>
+  <INH_ColonyCommandRefused>処理を完了できませんでした。便の状態、住民の所在、積荷の残量を確認してください。出発済みの便は輸送一覧から経路を再開できます。</INH_ColonyCommandRefused>
+  <INH_ColonyOrderHelp>予約ではまだ移動しません。輸送一覧の「出発」を押すと、選んだ住民と積荷がキャラバンへ移り、目的地へ向かいます。</INH_ColonyOrderHelp>
+  <INH_ColonySource>出発地</INH_ColonySource>
+  <INH_ColonyDestination>目的地</INH_ColonyDestination>
+  <INH_ColonyChooseBase>拠点を選ぶ</INH_ColonyChooseBase>
+  <INH_ColonyNeedTwoBases>直接操作する拠点を二つ以上、連絡局へ登録してください。</INH_ColonyNeedTwoBases>
+  <INH_ColonyChooseSource>出発地を選ぶと、住民と積荷を選択できます。</INH_ColonyChooseSource>
+  <INH_ColonyParty>同行する住民</INH_ColonyParty>
+  <INH_ColonyCargo>積荷と数量</INH_ColonyCargo>
+  <INH_ColonyNoParty>出発可能な住民がいません。徴兵・負傷・他の便の予約を確認してください。</INH_ColonyNoParty>
+  <INH_ColonyNoCargo>選択できる物資がありません。禁止指定や他の便の予約を確認してください。</INH_ColonyNoCargo>
+  <INH_ColonyAvailable>予約可能：{0}個</INH_ColonyAvailable>
+  <INH_ColonyJourneySupply>旅用食料</INH_ColonyJourneySupply>
+  <INH_ColonySupplyHint>旅用食料は消費を許容します。配送品が減ると便を保留します。</INH_ColonySupplyHint>
+  <INH_ColonyOrderSummary>住民 {0}人・選択した物資 {1}個</INH_ColonyOrderSummary>
+  <INH_ColonyReserve>この内容で予約</INH_ColonyReserve>
+  <INH_ColonySearchCargo>物資を検索</INH_ColonySearchCargo>
+  <INH_ColonyLossItem>{0}：前回確定 {1}個 → 残量 {2}個</INH_ColonyLossItem>
+  <INH_ColonyLossHelp>前回確定数と元の積荷の残量を確認してください。不足を確定すると、残った物資で納品を続けます。補充はしません。積荷が変わったら確認し直し、経路が止まっている場合は輸送一覧から再開してください。</INH_ColonyLossHelp>
+  <INH_ColonyAcceptLoss>不足を確定して続行</INH_ColonyAcceptLoss>
+  <INH_ColonyInspectLoss>配送品の不足を確認</INH_ColonyInspectLoss>
+  <INH_ColonyRecheck>照合し直す</INH_ColonyRecheck>
+  <INH_ColonyLossAccepted>確定した配送品の不足：{0}個</INH_ColonyLossAccepted>
+  <INH_ColonyLossTotal>今回確定する不足：{0}個</INH_ColonyLossTotal>
+  <INH_ColonyKeepHeld>保留を続ける</INH_ColonyKeepHeld>
+  <INH_ColonyAnimals>同行動物（入植者の同行が必要）</INH_ColonyAnimals>
+  <INH_ColonyAnimalParty>同行動物：{0}頭</INH_ColonyAnimalParty>
+  <INH_ColonyAnimalOrderSummary>入植者{0}人・動物{1}頭・積荷{2}個</INH_ColonyAnimalOrderSummary>
+  <INH_ColonyMass>装備・所持品を含む重量：{0} / {1} kg</INH_ColonyMass>
+  <INH_ColonyOverweight>積荷を減らすか、運び手を増やしてください</INH_ColonyOverweight>
+  <INH_ColonySelectionChanged>選択した人物・動物・荷物に変化があります。選び直してください。</INH_ColonySelectionChanged>
+  <INH_ColonyFoodDays>出発地での食料の目安：約{0}日分</INH_ColonyFoodDays>
+  <INH_ColonyFoodUnknown>同行者を選ぶと食料の目安を表示します。</INH_ColonyFoodUnknown>
+  <INH_ColonyFoodUnbounded>出発地での食料の目安：当面の制限なし</INH_ColonyFoodUnbounded>
+  <INH_ColonyFoodHint>地形や腐敗で目安は変わります。配送用の食料も食べられます。消費してよい食料は「旅用食料」に指定してください。</INH_ColonyFoodHint>
+  <INH_ColonyEnableCustody>凍結保管の試作を有効にする</INH_ColonyEnableCustody>
+  <INH_ColonyCustody>拠点内の凍結保管</INH_ColonyCustody>
+  <INH_ColonyCustodyFrozenWarning>保管中は通常の食事・生物学的な老化・生産が止まる。暦年齢は世界時計に従って進む。</INH_ColonyCustodyFrozenWarning>
+  <INH_ColonyCustodyHelp>住民や動物を一人ずつ、装備・衣服・所持品ごと保管します。戻す先は同じ読み込み中のマップの空きマスです。人がいる各マップには、保管可能な入植者を一人以上残す必要があります。</INH_ColonyCustodyHelp>
+  <INH_ColonyCustodyUnavailable>MOD設定で凍結保管を有効にし、ゲームを読み込んでください。</INH_ColonyCustodyUnavailable>
+  <INH_ColonyCustodyStoreDisabled>追加で保管するにはMOD設定で凍結保管を有効にしてください。保管済みの住民・動物はマップへ戻せます。完了待ちの操作も再試行できます。</INH_ColonyCustodyStoreDisabled>
+  <INH_ColonyCustodyNoBases>読み込み中のプレイヤー拠点を連絡局へ登録してください。</INH_ColonyCustodyNoBases>
+  <INH_ColonyCustodyBase>保管する拠点</INH_ColonyCustodyBase>
+  <INH_ColonyCustodyCandidates>このマップで保管できる住民・動物</INH_ColonyCustodyCandidates>
+  <INH_ColonyCustodyStored>この拠点で保管中の住民・動物</INH_ColonyCustodyStored>
+  <INH_ColonyCustodyNoCandidates>保管できる住民・動物がいません。徴兵、健康状態、輸送予約を確認してください。</INH_ColonyCustodyNoCandidates>
+  <INH_ColonyCustodyNoStored>この拠点で保管中の住民・動物はいません。</INH_ColonyCustodyNoStored>
+  <INH_ColonyCustodyPerson>入植者</INH_ColonyCustodyPerson>
+  <INH_ColonyCustodyAnimal>動物</INH_ColonyCustodyAnimal>
+  <INH_ColonyCustodyDetails>{0}・装備と所持品：{1}個</INH_ColonyCustodyDetails>
+  <INH_ColonyCustodyStore>保管する</INH_ColonyCustodyStore>
+  <INH_ColonyCustodyRelease>マップへ戻す</INH_ColonyCustodyRelease>
+  <INH_ColonyCustodyPending>この拠点で完了を待っている操作</INH_ColonyCustodyPending>
+  <INH_ColonyCustodyNoPending>完了を待っている操作はありません。</INH_ColonyCustodyNoPending>
+  <INH_ColonyCustodyPendingRow>{0}・{1}・完了待ち</INH_ColonyCustodyPendingRow>
+  <INH_ColonyCustodyRetry>この操作を再試行</INH_ColonyCustodyRetry>
+  <INH_ColonyCustodyChanged>拠点や住民の状態が変わりました。拠点を選び直してください。</INH_ColonyCustodyChanged>
+  <INH_ColonyCustodyRefused>保管の操作を完了できませんでした。健康状態、徴兵、輸送予約を確認してください。人がいる各マップには保管可能な入植者を一人以上残し、戻すための空きマスを確保してください。下の一覧に完了待ちの操作がある場合は、その操作を再試行してください。</INH_ColonyCustodyRefused>
+</LanguageData>

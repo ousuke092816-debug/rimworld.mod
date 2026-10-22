@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <INH_WorldTitle>継承圏 — World</INH_WorldTitle>
+  <INH_WorldNewWorld>次に生成する新規世界へ六国家の簡略都市を追加する</INH_WorldNewWorld>
+  <INH_WorldScope>既存セーブのモードは変更しません。都市訪問、戦争AI、旧派閥の置換は後の工程で追加します。</INH_WorldScope>
+  <INH_WorldOverview>六国家の状況</INH_WorldOverview>
+  <INH_WorldMapNote>色は初期文化圏を示します。都市の現管理国は下の一覧を参照してください。図は球面を平面へ投影した簡略図です。現在は平時の配置と抽象都市を確認する制作版です。</INH_WorldMapNote>
+  <INH_WorldPeace>平時</INH_WorldPeace>
+  <INH_WorldCapital>首都</INH_WorldCapital>
+  <INH_WorldTemporary>臨時首都</INH_WorldTemporary>
+  <INH_WorldIncome>累計抽象収入</INH_WorldIncome>
+  <INH_WorldLocation>世界座標 {0}</INH_WorldLocation>
+  <INH_Culture_starmound>星墓文化</INH_Culture_starmound>
+  <INH_Culture_irontree>鉄樹文化</INH_Culture_irontree>
+  <INH_Culture_forge>炉文化</INH_Culture_forge>
+  <INH_Culture_whitecrown>白冠文化</INH_Culture_whitecrown>
+  <INH_Culture_tidering>潮環文化</INH_Culture_tidering>
+  <INH_Culture_skymark>空標文化</INH_Culture_skymark>
+</LanguageData>

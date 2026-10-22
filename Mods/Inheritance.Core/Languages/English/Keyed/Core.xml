@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <INH_CoreTitle>Inheritance — Core</INH_CoreTitle>
+  <INH_Prototype>Foundation prototype 0.4.6. Install World for the six-nation abstract city prototype. Races, war AI and genes are planned.</INH_Prototype>
+  <INH_Modules>Loaded Inheritance modules: {0}</INH_Modules>
+  <INH_Diagnostics>Enable detailed diagnostic logging</INH_Diagnostics>
+  <INH_SaveScope>World identifier: {0}</INH_SaveScope>
+  <INH_NoWorld>A save identifier will be assigned when a world is started.</INH_NoWorld>
+</LanguageData>

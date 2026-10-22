@@ -1,0 +1,49 @@
+<LanguageData>
+  <INH_DelegatedCustodyTitle>Delegated site storage</INH_DelegatedCustodyTitle>
+  <INH_DelegatedEnable>Enable delegated site registration and storage</INH_DelegatedEnable>
+  <INH_DelegatedEnableHint>Register a stopped player caravan's current location and store original colonists or animals while leaving a human escort. Existing returns and unfinished operations remain available when disabled. Storage stays frozen; maintenance handles food accounting only.</INH_DelegatedEnableHint>
+  <INH_DelegatedCustodyHelp>Register a site at a stopped player caravan's current location. Store original colonists or animals individually, keep a human escort in the caravan, and return stored occupants to that same original caravan.</INH_DelegatedCustodyHelp>
+  <INH_DelegatedFrozenWarning>Frozen storage and food accounting only. Stored colonists and animals' ordinary hunger, health, aging and production do not progress; daily life is not simulated.</INH_DelegatedFrozenWarning>
+  <INH_DelegatedOpenMaintenance>Food maintenance</INH_DelegatedOpenMaintenance>
+  <INH_DelegatedReadUnavailable>The site or original caravan could not be read. Check the game state and reopen this screen.</INH_DelegatedReadUnavailable>
+  <INH_DelegatedSite>Delegated site</INH_DelegatedSite>
+  <INH_DelegatedCaravan>Player caravan</INH_DelegatedCaravan>
+  <INH_DelegatedChooseSite>Choose a site or register a new one</INH_DelegatedChooseSite>
+  <INH_DelegatedNewSite>Register a new site</INH_DelegatedNewSite>
+  <INH_DelegatedChooseCaravan>Choose an original caravan</INH_DelegatedChooseCaravan>
+  <INH_DelegatedNoCaravans>No player caravan is available. Stop a caravan at the intended location.</INH_DelegatedNoCaravans>
+  <INH_DelegatedNewSiteName>New site name</INH_DelegatedNewSiteName>
+  <INH_DelegatedRegisterHere>Register this location</INH_DelegatedRegisterHere>
+  <INH_DelegatedRegisterHelp>To register a new site, choose a stopped caravan and enter a name. Existing maps, settlements and registered sites cannot be replaced.</INH_DelegatedRegisterHelp>
+  <INH_DelegatedDisabled>Enable delegated storage in the mod settings to register a site or store more occupants. Existing returns and unfinished operations remain available.</INH_DelegatedDisabled>
+  <INH_DelegatedCandidates>Originals in the selected caravan</INH_DelegatedCandidates>
+  <INH_DelegatedResidents>Stored at this site</INH_DelegatedResidents>
+  <INH_DelegatedNoCandidates>Choose a located site and a caravan to inspect its colonists and animals.</INH_DelegatedNoCandidates>
+  <INH_DelegatedNoResidents>No occupants are stored at the selected site.</INH_DelegatedNoResidents>
+  <INH_DelegatedPerson>Colonist</INH_DelegatedPerson>
+  <INH_DelegatedAnimal>Animal</INH_DelegatedAnimal>
+  <INH_DelegatedDetails>{0} · carried items: {1}</INH_DelegatedDetails>
+  <INH_DelegatedStore>Store</INH_DelegatedStore>
+  <INH_DelegatedRelease>Return to original</INH_DelegatedRelease>
+  <INH_DelegatedOriginalCaravan>Original caravan: {0}</INH_DelegatedOriginalCaravan>
+  <INH_DelegatedMissingCaravan>Not found</INH_DelegatedMissingCaravan>
+  <INH_DelegatedPending>Unfinished storage and return operations</INH_DelegatedPending>
+  <INH_DelegatedNoPending>No operations are waiting for completion at this site.</INH_DelegatedNoPending>
+  <INH_DelegatedPendingRow>{0} · {1} · {2} · awaiting completion</INH_DelegatedPendingRow>
+  <INH_DelegatedRetry>Retry this operation</INH_DelegatedRetry>
+  <INH_DelegatedProblem_Disabled>New registration and storage are disabled. Existing returns and recovery remain available.</INH_DelegatedProblem_Disabled>
+  <INH_DelegatedProblem_Unlocated>This older site has no registered world location. Choose or register a located site.</INH_DelegatedProblem_Unlocated>
+  <INH_DelegatedProblem_CaravanMissing>The original caravan is missing. Stored originals cannot be returned to a replacement caravan.</INH_DelegatedProblem_CaravanMissing>
+  <INH_DelegatedProblem_CaravanMoving>The caravan must stop before this operation.</INH_DelegatedProblem_CaravanMoving>
+  <INH_DelegatedProblem_CaravanAway>The original caravan must be stopped at this site's location.</INH_DelegatedProblem_CaravanAway>
+  <INH_DelegatedProblem_Occupied>This location already contains a map, settlement or registered site.</INH_DelegatedProblem_Occupied>
+  <INH_DelegatedProblem_NoEscort>Keep at least one eligible human escort in the original caravan.</INH_DelegatedProblem_NoEscort>
+  <INH_DelegatedProblem_Ineligible>This original is not ready. Check health, drafting and who owns the caravan.</INH_DelegatedProblem_Ineligible>
+  <INH_DelegatedProblem_Reserved>The original is reserved for another transport or operation.</INH_DelegatedProblem_Reserved>
+  <INH_DelegatedProblem_PendingCustody>Retry the existing unfinished storage or return operation first.</INH_DelegatedProblem_PendingCustody>
+  <INH_DelegatedProblem_PendingRations>Recover the unfinished food charge from the maintenance screen first.</INH_DelegatedProblem_PendingRations>
+  <INH_DelegatedProblem_Unknown>This operation needs attention. Check the original caravan and occupant.</INH_DelegatedProblem_Unknown>
+  <INH_DelegatedProblem_CityLocked>Another unfinished operation is using this site. Recover that operation before moving occupants.</INH_DelegatedProblem_CityLocked>
+  <INH_DelegatedOpenSupplyPreview>Food preview</INH_DelegatedOpenSupplyPreview>
+</LanguageData>
+ 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>継承圏 — Core</name>
+  <author>Inheritance Project</author>
+  <packageId>inheritance.core</packageId>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <description>継承圏の共通基盤。恒久ID、抽象台帳、元住民と持ち物の保管、実物食料控除の証明、保存移行と復旧を提供します。六国家の試作には別途Worldを導入してください。種族、武器、遺伝子、戦争AIは制作予定です。</description>
+  <modVersion>0.4.16</modVersion>
+</ModMetaData>

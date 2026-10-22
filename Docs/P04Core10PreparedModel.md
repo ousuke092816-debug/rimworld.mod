@@ -1,0 +1,19 @@
+# 食品移送のPrepared台帳モデル — 2026-10-11
+
+元の食品を受け渡す前に、どの引き継ぎを一度だけ実行するかを記録する独立モデルを作成した。製品0.4.17への組み込み、Core10の実保存、実食品操作はまだ行っていない。
+
+最終モデルは `work/p04-core10-prepared-execution-model-stage-v3`。封印SHAは `871AC17DA7D06FA6F727BCB5A4F9BB42FAF2BF261B3CF497665A714C3B108E69`。新規コンパイルと純試験98件、既存Core9の4原保存を読む互換式確認6件が成功。独立レビューは `work/Core10PreparedExecutionModelV3IndependentReview.md`、SHA `BF28F0F9AD534265F99E872716EC55EFE5457482D351A92E8EE57DE030DB025A`。モデルの同じ元証からの再要求はIDや証拠を増やさず、食品を動かさない。
+
+記録は元transfer・intent・arm証、actor・scope・applyCause・固定digest・新operation/lease ID・準備時刻に結合する。現段階のphaseはPreparedだけ。他のphase、未知のXML、欠落・重複・別scope・別actor・矛盾したIDやdigestを拒否する。allocatorや時計が読み取り検査中に変わったら、新IDの採番前に拒否する。途中で書込みが失敗した場合は元例外と作成済み状態を保全し、採番の巻き戻しや勝手な再試行・復旧をしない。
+
+旧v2の独立レビューで、2件の記録に対して証拠列が「1件重複・1件欠落」でも個数だけ合って通るP2を発見した。v3は証拠の一対一対応、各証拠の全14字段と直接読取との一致を検証する。20件の複数記録試験を追加し、同じ新試験を旧v2 DLLへ当てて失敗することも保全した。v1/v2の封印や記録を書き換えて成功扱いにはしていない。
+
+6件の互換式確認は原XMLを読み、4つのarm hashと2つのreference-free disarmのrequest・before stamp・registry・result fingerprintを確認したもの。元のゲームやCore DLLを起動していない。98件も純モデル試験であり、配布0.4.17の57実ゲーム試験や別のnative保存保護6件へ加算しない。
+
+独立Core10試作への組み込みも進めた。必須の保存node、元schema9全体を検証した後の空台帳移行、実ledger port、Preparedに結合した取消・中断禁止、Colonyの明示要求入口を実装済み。元Armed責任は維持し、実食品移送・完了・責任解除は有効にしていない。schema10をschema9と偽って渡さない。
+
+最終統合候補は `work/p04-core10-prepared-integration-stage-v2`、封印SHA `C75FB8E5B8E5282F3A5CE1F5D6D3BFD1C39D520F76DE620802FEF8B564ABD18A`。171件の純試験と8件のReflectionOnly API確認を実行した元資料を照合した。製品17とは別のCore/Colony/Worldで、まだ実ゲーム・Scribe保存・移行を成功扱いにしない。
+
+統合v1のレビューで、途中失敗前に取得したCoreLedger参照から書込みを続けられるP2を発見した。v2は実worldの書込許可と共通Ledger.Gateの両方で、必須台帳の存在とfault状態を判定する。独立静的レビューは `work/Core10PreparedIntegrationV2IndependentReview.md`、SHA `8426053E8147AE1B4BC6FFA0439A3519FE62E8C6B54AA3BFD9839FC8EA9F0620`。Rootも共有helperと実2入口を読み、封印の読み取り検証を通した。旧v1とレビューは保全している。
+
+追加14件の試験は共有判定処理を対象とし、実CoreLedgerの各APIをゲーム内で呼んだ証拠ではない。今後は原保存4つとsidecarをそのまま使う隔離stageで、旧9からの移行、Preparedの実保存、別プロセス再読と再要求によるID不増、取消・中断拒否を検証する。実移送、永続T2証、障害後の物体保全、一般の保存画面への連携も引き続き実試験が必要。

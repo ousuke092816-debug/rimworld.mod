@@ -1,0 +1,48 @@
+<LanguageData>
+  <INH_MaintenanceTitle>委任拠点の食料維持費</INH_MaintenanceTitle>
+  <INH_MaintenanceEnable>委任拠点の食料維持費を有効にする</INH_MaintenanceEnable>
+  <INH_MaintenanceEnableHint>保管個体の毎日の食料支払いを新しく開始できます。無効にしても既存の支払いは続きます。請求を止めるには予定を停止してください。食料会計のみで、通常の空腹・健康・老化・生産は凍結したままです。</INH_MaintenanceEnableHint>
+  <INH_MaintenanceHelp>委任拠点で保管済みの住民・動物について、毎日の食料支払いを管理します。元キャラバンからの入庫・復帰には「委任地点・入出庫」の画面を使います。</INH_MaintenanceHelp>
+  <INH_MaintenanceFrozenWarning>食料会計のみの試作です。保管中の住民・動物の通常の空腹・健康・老化・生産は凍結したままで、日々の生活は再現しません。</INH_MaintenanceFrozenWarning>
+  <INH_MaintenanceNoSites>委任拠点が登録されていません。この画面では拠点・住民・キャラバンを作成しません。</INH_MaintenanceNoSites>
+  <INH_MaintenanceSite>委任拠点</INH_MaintenanceSite>
+  <INH_MaintenanceSitePosition>登録した世界上の位置：タイル {0}</INH_MaintenanceSitePosition>
+  <INH_MaintenanceDisabled>新しく開始するにはMOD設定で委任維持費を有効にしてください。無効にしても既存の毎日の支払いは続きます。予定の停止・再開と未完了の支払いの復旧は利用できます。</INH_MaintenanceDisabled>
+  <INH_MaintenanceFoodHelp>各保管個体自身の所持品にある対象食料から支払います。利用可能な食料と一日の必要量は栄養値で表示します。</INH_MaintenanceFoodHelp>
+  <INH_MaintenanceReadUnavailable>拠点または保管個体の情報を取得できませんでした。ゲームの状態を確認してから画面を開き直してください。</INH_MaintenanceReadUnavailable>
+  <INH_MaintenanceResidents>保管個体と維持費の記録</INH_MaintenanceResidents>
+  <INH_MaintenanceNoResidents>この拠点には保管個体や維持費の記録がありません。</INH_MaintenanceNoResidents>
+  <INH_MaintenancePerson>入植者</INH_MaintenancePerson>
+  <INH_MaintenanceAnimal>動物</INH_MaintenanceAnimal>
+  <INH_MaintenanceResidentRow>{0}・{1}</INH_MaintenanceResidentRow>
+  <INH_MaintenanceScheduleRow>{0}・{1}・{2}</INH_MaintenanceScheduleRow>
+  <INH_MaintenanceNutrition>利用可能な食料：栄養 {0}・一日の必要量：栄養 {1}</INH_MaintenanceNutrition>
+  <INH_MaintenanceNotStarted>毎日の維持費はまだ開始していません。</INH_MaintenanceNotStarted>
+  <INH_MaintenanceDates>開始：{0}・前回支払い：{1}・次回支払い：{2}</INH_MaintenanceDates>
+  <INH_MaintenanceStart>毎日の維持費を開始</INH_MaintenanceStart>
+  <INH_MaintenanceStop>維持費を停止</INH_MaintenanceStop>
+  <INH_MaintenanceResume>維持費を再開</INH_MaintenanceResume>
+  <INH_MaintenanceStage_Active>支払い中</INH_MaintenanceStage_Active>
+  <INH_MaintenanceStage_Held>保留中</INH_MaintenanceStage_Held>
+  <INH_MaintenanceStage_Stopped>停止済み</INH_MaintenanceStage_Stopped>
+  <INH_MaintenanceStage_Released>この拠点での保管終了</INH_MaintenanceStage_Released>
+  <INH_MaintenancePending>この拠点の未完了の食料支払い</INH_MaintenancePending>
+  <INH_MaintenanceNoPending>完了を待つ食料支払いはありません。</INH_MaintenanceNoPending>
+  <INH_MaintenancePendingRow>{0}・{1}・食料支払いの完了待ち</INH_MaintenancePendingRow>
+  <INH_MaintenanceRecover>この食料支払いを復旧</INH_MaintenanceRecover>
+  <INH_MaintenanceUnknownResident>保管中の個体</INH_MaintenanceUnknownResident>
+  <INH_MaintenanceUnknown>取得不可</INH_MaintenanceUnknown>
+  <INH_MaintenanceNoDay>—</INH_MaintenanceNoDay>
+  <INH_MaintenanceDay>{0}日目</INH_MaintenanceDay>
+  <INH_MaintenanceProblem_Unlocated>この旧拠点には世界上の位置が登録されていません。ここでは維持費を開始できません。</INH_MaintenanceProblem_Unlocated>
+  <INH_MaintenanceProblem_AnchorMissing>元のキャラバンが見つかりません。代わりのキャラバンは作成しません。</INH_MaintenanceProblem_AnchorMissing>
+  <INH_MaintenanceProblem_ResidentUnavailable>元の保管個体が維持費の対象として利用できません。状態を確認してください。</INH_MaintenanceProblem_ResidentUnavailable>
+  <INH_MaintenanceProblem_CargoReserved>この食料は輸送の予約済み積荷に属するため、維持費に使えません。</INH_MaintenanceProblem_CargoReserved>
+  <INH_MaintenanceProblem_Unsupported>この保管個体または食料は維持費の試作で対応していません。</INH_MaintenanceProblem_Unsupported>
+  <INH_MaintenanceProblem_Pending>未完了の操作を復旧してから、次の食料支払いを行ってください。</INH_MaintenanceProblem_Pending>
+  <INH_MaintenanceProblem_Shortage>一日分の支払いに使える食料が不足したため、維持費を保留しています。</INH_MaintenanceProblem_Shortage>
+  <INH_MaintenanceProblem_DayGap>予定した支払日を過ぎたため保留しています。過去の日数分を自動で請求しません。</INH_MaintenanceProblem_DayGap>
+  <INH_MaintenanceProblem_ResidenceChanged>この個体はこの拠点で保管されていません。維持費の記録は終了しました。</INH_MaintenanceProblem_ResidenceChanged>
+  <INH_MaintenanceProblem_Unknown>維持費の確認が必要です。保管個体、元キャラバン、利用可能な食料を確認してください。</INH_MaintenanceProblem_Unknown>
+  <INH_MaintenanceCurrentCondition>現在の状態：{0}</INH_MaintenanceCurrentCondition>
+</LanguageData>

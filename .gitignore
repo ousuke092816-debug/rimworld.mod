@@ -1,0 +1,29 @@
+# Local test evidence, historical handoffs, and scratch environments.
+/Docs/Evidence/
+/Docs/History/
+/work/
+
+# Build scripts are source; generated build outputs are not.
+**/bin/
+**/obj/
+*.dll
+*.pdb
+*.exe
+*.zip
+*.7z
+*.rws
+*.log
+*.tmp
+
+# Machine-specific settings and credentials.
+.vs/
+.idea/
+*.user
+*.suo
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+Thumbs.db
+Desktop.ini

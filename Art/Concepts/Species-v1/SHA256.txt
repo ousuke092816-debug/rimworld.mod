@@ -1,0 +1,25 @@
+
+Algorithm : SHA256
+Hash      : 0E7AFEFA3DAD61B09CB7214DAF25BF887ADE71E3AB1F13644BE221F3C9B7CD78
+Path      : C:\Users\Ousuk\Documents\Codex\2026-10-06\new-chat\outputs\Inheritance\Art\Concepts\Species-v1\01-Stargrave-ABC.png
+
+Algorithm : SHA256
+Hash      : BABB4437478487EA2559E61E959DE06204D6D547A4FA4A2D5844A57462466512
+Path      : C:\Users\Ousuk\Documents\Codex\2026-10-06\new-chat\outputs\Inheritance\Art\Concepts\Species-v1\02-Ironwood-ABC.png
+
+Algorithm : SHA256
+Hash      : 27C252629A36DC6701603AB7D99EE6C11AD138E972988CA71CC601E1606BF5DF
+Path      : C:\Users\Ousuk\Documents\Codex\2026-10-06\new-chat\outputs\Inheritance\Art\Concepts\Species-v1\03-Hearth-ABC.png
+
+Algorithm : SHA256
+Hash      : 6919345132FDDDC66DBAB3EED3CA7EA887BC4A2BFB2126F1F57716CEADCACB2E
+Path      : C:\Users\Ousuk\Documents\Codex\2026-10-06\new-chat\outputs\Inheritance\Art\Concepts\Species-v1\04-Whitecrown-ABC.png
+
+Algorithm : SHA256
+Hash      : F181B6A5B9B9593C8413A3D51B27569575F183D5361BB3C3F59B4328FFD4A5F2
+Path      : C:\Users\Ousuk\Documents\Codex\2026-10-06\new-chat\outputs\Inheritance\Art\Concepts\Species-v1\05-Tide-ABC.png
+
+Algorithm : SHA256
+Hash      : 6A41EB3DD27260A8CA84074EAC08F2A8954DDEF44BB32F5044A15EAE0205F002
+Path      : C:\Users\Ousuk\Documents\Codex\2026-10-06\new-chat\outputs\Inheritance\Art\Concepts\Species-v1\06-Skymarker-ABC.png
+

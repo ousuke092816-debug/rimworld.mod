@@ -1,0 +1,173 @@
+{
+  "CreatedJapanDate": "2026-10-14",
+  "Tool": "built-in image_gen",
+  "TransparentBackgroundRequested": true,
+  "EditedAfterGeneration": false,
+  "AssetScope": "M1 directional head drafts only",
+  "RimWorld17Tested": false,
+  "HARWired": false,
+  "FullAlphaCensusVerified": false,
+  "AlignmentVerifiedInGame": false,
+  "PromptFile": "Prompts.md",
+  "PromptSHA256": "4A8C10A7279B32D7F407C09AAC273C31EEE07066E2BCD2B26D80753A2B2E14E3",
+  "Images": [
+    {
+      "File": "M1Male_Head_south.png",
+      "Origin": "C:\\Users\\Ousuk\\.codex\\generated_images\\01a111b3-1ca6-77a2-b5a4-5178fbfb57e6\\exec-70c86af2-ea03-4435-9729-492371da8aff.png",
+      "SHA256": "F12FEBF41E4F9E133091EBF1ABA9D6A50F4DCF88D4480F50D0C8DA4D3E9393C0",
+      "ExactCopyVerified": true,
+      "Width": 1254,
+      "Height": 1254,
+      "PixelFormat": "Format32bppArgb",
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "CenterAlpha": 254,
+      "References": [
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\Concepts\\Species-v10-stronger\\M1-Stargrave-male-female.png",
+          "SHA256": "3763F54C0CAB433C6E937C973C6C9DC2AFDE8B4629CC324550AB039E90524ECF"
+        }
+      ],
+      "PromptSection": "M1Male_Head_south.png"
+    },
+    {
+      "File": "M1Male_Head_east.png",
+      "Origin": "C:\\Users\\Ousuk\\.codex\\generated_images\\01a111b3-1ca6-77a2-b5a4-5178fbfb57e6\\exec-1cbe18ea-5888-4e42-910c-e383f4a41b2b.png",
+      "SHA256": "6C9B233200FA610D2111DC409F3C97438B6DF9116EB4C3E675B1554C1C6C1D2C",
+      "ExactCopyVerified": true,
+      "Width": 1254,
+      "Height": 1254,
+      "PixelFormat": "Format32bppArgb",
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "CenterAlpha": 253,
+      "References": [
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\ProductionDrafts\\M1Heads-20261014\\M1Male_Head_south.png",
+          "SHA256": "F12FEBF41E4F9E133091EBF1ABA9D6A50F4DCF88D4480F50D0C8DA4D3E9393C0"
+        },
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\Concepts\\Species-v10-stronger\\M1-Stargrave-male-female.png",
+          "SHA256": "3763F54C0CAB433C6E937C973C6C9DC2AFDE8B4629CC324550AB039E90524ECF"
+        }
+      ],
+      "PromptSection": "M1Male_Head_east.png"
+    },
+    {
+      "File": "M1Male_Head_north.png",
+      "Origin": "C:\\Users\\Ousuk\\.codex\\generated_images\\01a111b3-1ca6-77a2-b5a4-5178fbfb57e6\\exec-1a34b8a0-b6af-48f9-8a6c-05a7e3c8935f.png",
+      "SHA256": "07B5ACDA2F259FCCB520DBEDE112CA645AD83CC6E5F3512689ECF804000AF7B5",
+      "ExactCopyVerified": true,
+      "Width": 1254,
+      "Height": 1254,
+      "PixelFormat": "Format32bppArgb",
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "CenterAlpha": 253,
+      "References": [
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\ProductionDrafts\\M1Heads-20261014\\M1Male_Head_south.png",
+          "SHA256": "F12FEBF41E4F9E133091EBF1ABA9D6A50F4DCF88D4480F50D0C8DA4D3E9393C0"
+        },
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\ProductionDrafts\\M1Heads-20261014\\M1Male_Head_east.png",
+          "SHA256": "6C9B233200FA610D2111DC409F3C97438B6DF9116EB4C3E675B1554C1C6C1D2C"
+        }
+      ],
+      "PromptSection": "M1Male_Head_north.png"
+    },
+    {
+      "File": "M1Female_Head_south.png",
+      "Origin": "C:\\Users\\Ousuk\\.codex\\generated_images\\01a111b3-1ca6-77a2-b5a4-5178fbfb57e6\\exec-fa41d917-60ec-4895-a306-54c08c337729.png",
+      "SHA256": "36E2A1F23E712B6B8DCFB9A17B7BCE8921FBAB4F04D13CB6915AF00DDDA30033",
+      "ExactCopyVerified": true,
+      "Width": 1254,
+      "Height": 1254,
+      "PixelFormat": "Format32bppArgb",
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "CenterAlpha": 253,
+      "References": [
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\Concepts\\Species-v10-stronger\\M1-Stargrave-male-female.png",
+          "SHA256": "3763F54C0CAB433C6E937C973C6C9DC2AFDE8B4629CC324550AB039E90524ECF"
+        },
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\ProductionDrafts\\M1Heads-20261014\\M1Male_Head_south.png",
+          "SHA256": "F12FEBF41E4F9E133091EBF1ABA9D6A50F4DCF88D4480F50D0C8DA4D3E9393C0"
+        }
+      ],
+      "PromptSection": "M1Female_Head_south.png"
+    },
+    {
+      "File": "M1Female_Head_east.png",
+      "Origin": "C:\\Users\\Ousuk\\.codex\\generated_images\\01a111b3-1ca6-77a2-b5a4-5178fbfb57e6\\exec-6ba6024a-00bf-481b-88bd-327cf3783ec5.png",
+      "SHA256": "E58B3C929C73E483F6E282EEC87AB30630DAF536DAFD00FC9F34EFC132809BAF",
+      "ExactCopyVerified": true,
+      "Width": 1254,
+      "Height": 1254,
+      "PixelFormat": "Format32bppArgb",
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "CenterAlpha": 253,
+      "References": [
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\ProductionDrafts\\M1Heads-20261014\\M1Female_Head_south.png",
+          "SHA256": "36E2A1F23E712B6B8DCFB9A17B7BCE8921FBAB4F04D13CB6915AF00DDDA30033"
+        },
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\Concepts\\Species-v10-stronger\\M1-Stargrave-male-female.png",
+          "SHA256": "3763F54C0CAB433C6E937C973C6C9DC2AFDE8B4629CC324550AB039E90524ECF"
+        }
+      ],
+      "PromptSection": "M1Female_Head_east.png"
+    },
+    {
+      "File": "M1Female_Head_north.png",
+      "Origin": "C:\\Users\\Ousuk\\.codex\\generated_images\\01a111b3-1ca6-77a2-b5a4-5178fbfb57e6\\exec-a461fc88-e60f-4f4d-afb6-e70a84d9289c.png",
+      "SHA256": "5687C7A46F7E990C74F3EED2922488568F59C847893B3C615041742EFB128527",
+      "ExactCopyVerified": true,
+      "Width": 1254,
+      "Height": 1254,
+      "PixelFormat": "Format32bppArgb",
+      "CornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "CenterAlpha": 253,
+      "References": [
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\ProductionDrafts\\M1Heads-20261014\\M1Female_Head_south.png",
+          "SHA256": "36E2A1F23E712B6B8DCFB9A17B7BCE8921FBAB4F04D13CB6915AF00DDDA30033"
+        },
+        {
+          "Path": "C:\\Users\\Ousuk\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\Inheritance\\Art\\ProductionDrafts\\M1Heads-20261014\\M1Female_Head_east.png",
+          "SHA256": "E58B3C929C73E483F6E282EEC87AB30630DAF536DAFD00FC9F34EFC132809BAF"
+        }
+      ],
+      "PromptSection": "M1Female_Head_north.png"
+    }
+  ]
+}

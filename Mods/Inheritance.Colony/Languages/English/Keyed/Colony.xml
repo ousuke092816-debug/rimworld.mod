@@ -1,0 +1,92 @@
+﻿<LanguageData>
+  <INH_ColonyTitle>Inheritance — Colony</INH_ColonyTitle>
+  <INH_ColonyPrototype>Coordination prototype 0.4.9. Transport colonists, animals and cargo between registered direct bases. Optional local storage keeps individual colonists and animals with their equipment and inventory, and returns them to the same map.</INH_ColonyPrototype>
+  <INH_ColonyRegisterMaps>Register current player maps with the coordination office</INH_ColonyRegisterMaps>
+  <INH_ColonyOverview>Bases and transports</INH_ColonyOverview>
+  <INH_ColonyDirect>Direct control</INH_ColonyDirect>
+  <INH_ColonyDelegated>Delegated</INH_ColonyDelegated>
+  <INH_ColonyNoTransport>No transports are registered.</INH_ColonyNoTransport>
+  <INH_ColonyMapStock>{0} colonists, {1} steel on the map</INH_ColonyMapStock>
+  <INH_Transport_Planning>Planning</INH_Transport_Planning>
+  <INH_Transport_Reserved>Reserved</INH_Transport_Reserved>
+  <INH_Transport_Departing>Departing</INH_Transport_Departing>
+  <INH_Transport_InTransit>In transit</INH_Transport_InTransit>
+  <INH_Transport_Arriving>Arriving</INH_Transport_Arriving>
+  <INH_Transport_Arrived>Arrived</INH_Transport_Arrived>
+  <INH_Transport_Cancelling>Cancelling</INH_Transport_Cancelling>
+  <INH_Transport_Cancelled>Cancelled</INH_Transport_Cancelled>
+  <INH_ColonyPhysicalRow>{0} → {1}  |  Physical: {2} pawns / {3} ordered items  |  {4}</INH_ColonyPhysicalRow>
+  <INH_ColonyPhysicalAttention>Party or cargo changed. Transport is on hold; inspect the original objects.</INH_ColonyPhysicalAttention>
+  <INH_Physical_Reserved>Reserved</INH_Physical_Reserved>
+  <INH_Physical_Departing>Checking departure</INH_Physical_Departing>
+  <INH_Physical_InTransit>In transit</INH_Physical_InTransit>
+  <INH_Physical_Arriving>Checking arrival</INH_Physical_Arriving>
+  <INH_Physical_Arrived>Arrived</INH_Physical_Arrived>
+  <INH_Physical_Cancelled>Cancelled</INH_Physical_Cancelled>
+  <INH_Physical_NeedsAttention>Needs attention</INH_Physical_NeedsAttention>
+  <INH_ColonyEnablePhysical>Enable the physical transport prototype</INH_ColonyEnablePhysical>
+  <INH_ColonyEnablePhysicalHint>Move pawns and cargo between registered direct bases. Physical delivery to delegated bases is not available yet.</INH_ColonyEnablePhysicalHint>
+  <INH_ColonyNewPhysical>Arrange transport</INH_ColonyNewPhysical>
+  <INH_ColonyDispatch>Depart</INH_ColonyDispatch>
+  <INH_ColonyCancel>Cancel reservation</INH_ColonyCancel>
+  <INH_ColonyResumeRoute>Resume route</INH_ColonyResumeRoute>
+  <INH_ColonyEnter>Enter destination</INH_ColonyEnter>
+  <INH_ColonyCommandRefused>The action could not be completed. Check the transport status, party location and remaining cargo. A departed caravan can resume its route from the transport list.</INH_ColonyCommandRefused>
+  <INH_ColonyOrderHelp>Reservation does not move anything yet. Depart from the transport list to place the selected pawns and cargo in a caravan and start travelling.</INH_ColonyOrderHelp>
+  <INH_ColonySource>Origin</INH_ColonySource>
+  <INH_ColonyDestination>Destination</INH_ColonyDestination>
+  <INH_ColonyChooseBase>Choose a base</INH_ColonyChooseBase>
+  <INH_ColonyNeedTwoBases>Register at least two direct player bases with the coordination office.</INH_ColonyNeedTwoBases>
+  <INH_ColonyChooseSource>Choose an origin to select pawns and cargo.</INH_ColonyChooseSource>
+  <INH_ColonyParty>Travelling party</INH_ColonyParty>
+  <INH_ColonyCargo>Cargo and quantities</INH_ColonyCargo>
+  <INH_ColonyNoParty>No pawn is ready to depart. Check drafting, injuries and other reservations.</INH_ColonyNoParty>
+  <INH_ColonyNoCargo>No available cargo. Check forbidden items and other reservations.</INH_ColonyNoCargo>
+  <INH_ColonyAvailable>Available: {0}</INH_ColonyAvailable>
+  <INH_ColonyJourneySupply>Travel food</INH_ColonyJourneySupply>
+  <INH_ColonySupplyHint>Travel food may be consumed. Missing delivery cargo puts the transport on hold.</INH_ColonySupplyHint>
+  <INH_ColonyOrderSummary>{0} pawns, {1} selected items</INH_ColonyOrderSummary>
+  <INH_ColonyReserve>Reserve transport</INH_ColonyReserve>
+  <INH_ColonySearchCargo>Search cargo</INH_ColonySearchCargo>
+  <INH_ColonyLossItem>{0}: agreed {1}, remaining {2}</INH_ColonyLossItem>
+  <INH_ColonyLossHelp>Check the agreed quantity and original cargo remaining. Accept loss to continue with the remainder. Lost items are not replaced. If cargo changes, inspect again. Resume a stopped route from the transport list.</INH_ColonyLossHelp>
+  <INH_ColonyAcceptLoss>Accept loss and continue</INH_ColonyAcceptLoss>
+  <INH_ColonyInspectLoss>Inspect delivery loss</INH_ColonyInspectLoss>
+  <INH_ColonyRecheck>Recheck</INH_ColonyRecheck>
+  <INH_ColonyLossAccepted>Acknowledged delivery loss: {0} items</INH_ColonyLossAccepted>
+  <INH_ColonyLossTotal>New delivery loss to acknowledge: {0} items</INH_ColonyLossTotal>
+  <INH_ColonyKeepHeld>Keep transport on hold</INH_ColonyKeepHeld>
+  <INH_ColonyAnimals>Animals (a colonist must accompany them)</INH_ColonyAnimals>
+  <INH_ColonyAnimalParty>Accompanying animals: {0}</INH_ColonyAnimalParty>
+  <INH_ColonyAnimalOrderSummary>{0} colonists, {1} animals, {2} selected items</INH_ColonyAnimalOrderSummary>
+  <INH_ColonyMass>Weight including equipment and inventory: {0} / {1} kg</INH_ColonyMass>
+  <INH_ColonyOverweight>Reduce cargo or add carriers</INH_ColonyOverweight>
+  <INH_ColonySelectionChanged>Selected pawns or cargo have changed. Check your selections.</INH_ColonySelectionChanged>
+  <INH_ColonyFoodDays>Food estimate at origin: about {0} days</INH_ColonyFoodDays>
+  <INH_ColonyFoodUnknown>Select a party to estimate food.</INH_ColonyFoodUnknown>
+  <INH_ColonyFoodUnbounded>Food estimate at origin: no short-term limit</INH_ColonyFoodUnbounded>
+  <INH_ColonyFoodHint>Terrain and spoilage can change this estimate. Delivery food may also be eaten; mark travel food to allow consumption without holding the transport.</INH_ColonyFoodHint>
+  <INH_ColonyEnableCustody>Enable the frozen storage prototype</INH_ColonyEnableCustody>
+  <INH_ColonyCustody>Local frozen storage</INH_ColonyCustody>
+  <INH_ColonyCustodyFrozenWarning>While stored, ordinary eating, biological aging and production stop. Chronological age follows the world clock.</INH_ColonyCustodyFrozenWarning>
+  <INH_ColonyCustodyHelp>Store one colonist or animal with their equipment, clothing and inventory. Return them to a free cell on the same loaded map. At least one eligible colonist must remain on each occupied map.</INH_ColonyCustodyHelp>
+  <INH_ColonyCustodyUnavailable>Enable frozen storage in the mod settings and load a game to use it.</INH_ColonyCustodyUnavailable>
+  <INH_ColonyCustodyStoreDisabled>Enable frozen storage in the mod settings to store more. Stored occupants can still return to this map, and waiting actions can be retried.</INH_ColonyCustodyStoreDisabled>
+  <INH_ColonyCustodyNoBases>Register a loaded player base with the coordination office first.</INH_ColonyCustodyNoBases>
+  <INH_ColonyCustodyBase>Storage base</INH_ColonyCustodyBase>
+  <INH_ColonyCustodyCandidates>Available on this map</INH_ColonyCustodyCandidates>
+  <INH_ColonyCustodyStored>Stored at this base</INH_ColonyCustodyStored>
+  <INH_ColonyCustodyNoCandidates>No colonist or animal is available. Check drafting, health and transport reservations.</INH_ColonyCustodyNoCandidates>
+  <INH_ColonyCustodyNoStored>No colonists or animals are stored at this base.</INH_ColonyCustodyNoStored>
+  <INH_ColonyCustodyPerson>Colonist</INH_ColonyCustodyPerson>
+  <INH_ColonyCustodyAnimal>Animal</INH_ColonyCustodyAnimal>
+  <INH_ColonyCustodyDetails>{0} · carried items: {1}</INH_ColonyCustodyDetails>
+  <INH_ColonyCustodyStore>Store</INH_ColonyCustodyStore>
+  <INH_ColonyCustodyRelease>Return to map</INH_ColonyCustodyRelease>
+  <INH_ColonyCustodyPending>Actions waiting for completion at this base</INH_ColonyCustodyPending>
+  <INH_ColonyCustodyNoPending>No actions are waiting for completion.</INH_ColonyCustodyNoPending>
+  <INH_ColonyCustodyPendingRow>{0} · {1} · waiting for completion</INH_ColonyCustodyPendingRow>
+  <INH_ColonyCustodyRetry>Retry this action</INH_ColonyCustodyRetry>
+  <INH_ColonyCustodyChanged>The base or its occupants have changed. Choose the base again.</INH_ColonyCustodyChanged>
+  <INH_ColonyCustodyRefused>The storage action could not be completed. Check the pawn's health, drafting and transport reservations. Keep at least one eligible colonist on each occupied map and a free cell for returns. If an action is waiting for completion below, retry that action.</INH_ColonyCustodyRefused>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <INH_CoreTitle>継承圏 — Core</INH_CoreTitle>
+  <INH_Prototype>制作中の基盤版 0.4.6。Worldと組み合わせて六国家の簡略都市を利用できます。種族・戦争AI・遺伝子は制作予定です。</INH_Prototype>
+  <INH_Modules>読み込まれた継承圏モジュール：{0}</INH_Modules>
+  <INH_Diagnostics>詳細な診断ログを記録する</INH_Diagnostics>
+  <INH_SaveScope>この世界の識別子：{0}</INH_SaveScope>
+  <INH_NoWorld>世界を開始すると保存用の識別子が割り当てられます。</INH_NoWorld>
+</LanguageData>

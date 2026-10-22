@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Inheritance — Isolated Smoke Test</name>
+  <author>Inheritance Project</author>
+  <packageId>inheritance.smoketest</packageId>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <forceLoadAfter><li>inheritance.core</li></forceLoadAfter>
+  <description>Development-only harness. Runs only with -inh-smoke. Do not enable in normal play.</description>
+</ModMetaData>

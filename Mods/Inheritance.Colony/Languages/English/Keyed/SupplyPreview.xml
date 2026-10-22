@@ -1,0 +1,55 @@
+<LanguageData>
+  <INH_SupplyPreviewTitle>Food supply preview</INH_SupplyPreviewTitle>
+  <INH_SupplyPreviewWarning>Preview only: food cannot be moved yet. Stored colonists and animals remain frozen; ordinary daily life is not implemented.</INH_SupplyPreviewWarning>
+  <INH_SupplyPreviewReadUnavailable>The site or stored occupant could not be read. Check the game state and reopen this preview.</INH_SupplyPreviewReadUnavailable>
+  <INH_SupplyPreviewSite>Site: {0}</INH_SupplyPreviewSite>
+  <INH_SupplyPreviewRecipient>Recipient: {0} · {1}</INH_SupplyPreviewRecipient>
+  <INH_SupplyPreviewCaravan>Original caravan: {0}</INH_SupplyPreviewCaravan>
+  <INH_SupplyPreviewMissingCaravan>Not found; no replacement caravan is selected</INH_SupplyPreviewMissingCaravan>
+  <INH_SupplyPreviewDemand>Estimated daily food demand: {0} nutrition</INH_SupplyPreviewDemand>
+  <INH_SupplyPreviewEstimateHint>Amounts describe the current inventory and this recipient's food estimate. They do not reserve food or guarantee a transfer.</INH_SupplyPreviewEstimateHint>
+  <INH_SupplyPreviewFoods>Foods carried by members of the original caravan</INH_SupplyPreviewFoods>
+  <INH_SupplyPreviewEmpty>No nutrition-giving food candidates were found in the original caravan's colonist or animal inventories. Check the reasons above if the caravan is missing or unavailable.</INH_SupplyPreviewEmpty>
+  <INH_SupplyPreviewOwner>Carried by: {0} · {1}</INH_SupplyPreviewOwner>
+  <INH_SupplyPreviewNutrition>Quantity: {0} · nutrition per item: {1} · stack nutrition: {2}</INH_SupplyPreviewNutrition>
+  <INH_SupplyPreviewProblems>Current limitations:</INH_SupplyPreviewProblems>
+  <INH_SupplyPreviewNoListedProblems>No restrictions are listed in this observation. This remains a preview only.</INH_SupplyPreviewNoListedProblems>
+  <INH_SupplyPreviewHistoryCount>Recorded transport matches: {0} (hover for an explanation)</INH_SupplyPreviewHistoryCount>
+  <INH_SupplyPreviewHistoryDetail>{0}: {1}</INH_SupplyPreviewHistoryDetail>
+  <INH_SupplyPreviewTravelFood>Travel food</INH_SupplyPreviewTravelFood>
+  <INH_SupplyPreviewFreight>Transport cargo</INH_SupplyPreviewFreight>
+  <INH_SupplyPreviewHistorySource>This original stack appears as a recorded cargo source.</INH_SupplyPreviewHistorySource>
+  <INH_SupplyPreviewHistoryCargo>This original stack appears as recorded transported cargo.</INH_SupplyPreviewHistoryCargo>
+  <INH_SupplyPreviewHistoryBoth>This original stack appears as both a cargo source and transported cargo.</INH_SupplyPreviewHistoryBoth>
+  <INH_SupplyPreviewUnavailable>Unavailable</INH_SupplyPreviewUnavailable>
+  <INH_SupplyPreviewPerson>Colonist</INH_SupplyPreviewPerson>
+  <INH_SupplyPreviewAnimal>Animal</INH_SupplyPreviewAnimal>
+  <INH_SupplyPreviewUnknownKind>Occupant type unavailable</INH_SupplyPreviewUnknownKind>
+  <INH_SupplyPreviewUnknownNumber>Unknown</INH_SupplyPreviewUnknownNumber>
+  <INH_SupplyPreviewProblem_WorldUnavailable>The game state is not ready for a food preview.</INH_SupplyPreviewProblem_WorldUnavailable>
+  <INH_SupplyPreviewProblem_Unlocated>This site has no usable registered location.</INH_SupplyPreviewProblem_Unlocated>
+  <INH_SupplyPreviewProblem_CityLocked>An unfinished operation at this site needs recovery first.</INH_SupplyPreviewProblem_CityLocked>
+  <INH_SupplyPreviewProblem_CaravanMissing>The original player caravan is not currently available.</INH_SupplyPreviewProblem_CaravanMissing>
+  <INH_SupplyPreviewProblem_CaravanMoving>The original caravan must stop at this site.</INH_SupplyPreviewProblem_CaravanMoving>
+  <INH_SupplyPreviewProblem_CaravanAway>The original caravan is away from this site.</INH_SupplyPreviewProblem_CaravanAway>
+  <INH_SupplyPreviewProblem_NotOriginalCaravan>The caravan recorded when this occupant was stored is unavailable. Another caravan is not used.</INH_SupplyPreviewProblem_NotOriginalCaravan>
+  <INH_SupplyPreviewProblem_ResidentUnavailable>The original stored occupant could not be verified.</INH_SupplyPreviewProblem_ResidentUnavailable>
+  <INH_SupplyPreviewProblem_RecipientTransportReserved>The recipient is reserved for transport.</INH_SupplyPreviewProblem_RecipientTransportReserved>
+  <INH_SupplyPreviewProblem_RecipientPendingCustody>The recipient has an unfinished storage or return operation.</INH_SupplyPreviewProblem_RecipientPendingCustody>
+  <INH_SupplyPreviewProblem_RecipientPendingRations>The recipient has an unfinished food maintenance charge.</INH_SupplyPreviewProblem_RecipientPendingRations>
+  <INH_SupplyPreviewProblem_UnsupportedRecipient>This recipient's food needs are not supported by this estimate, including special resource needs.</INH_SupplyPreviewProblem_UnsupportedRecipient>
+  <INH_SupplyPreviewProblem_RationMutation>A food maintenance operation is still being applied.</INH_SupplyPreviewProblem_RationMutation>
+  <INH_SupplyPreviewProblem_RecipientHistoricalCargo>The recipient already carries food recorded as transport cargo. That history still protects the food.</INH_SupplyPreviewProblem_RecipientHistoricalCargo>
+  <INH_SupplyPreviewProblem_RecipientHistoricalJourneySupply>The recipient already carries recorded travel food. That history still protects the food.</INH_SupplyPreviewProblem_RecipientHistoricalJourneySupply>
+  <INH_SupplyPreviewProblem_SourceIneligible>The food's carrier is not an eligible original member of this player caravan.</INH_SupplyPreviewProblem_SourceIneligible>
+  <INH_SupplyPreviewProblem_SourceNativeCustodyReserved>The carrier is involved in an unfinished storage or return operation.</INH_SupplyPreviewProblem_SourceNativeCustodyReserved>
+  <INH_SupplyPreviewProblem_SourceTransportReserved>The carrier is reserved for transport.</INH_SupplyPreviewProblem_SourceTransportReserved>
+  <INH_SupplyPreviewProblem_SourcePendingRations>The carrier has an unfinished food maintenance charge.</INH_SupplyPreviewProblem_SourcePendingRations>
+  <INH_SupplyPreviewProblem_SourceInventoryMismatch>The original food could not be verified in this carrier's inventory.</INH_SupplyPreviewProblem_SourceInventoryMismatch>
+  <INH_SupplyPreviewProblem_UnsupportedFood>This recipient does not accept this food, or it has special ingestion effects that this preview does not support.</INH_SupplyPreviewProblem_UnsupportedFood>
+  <INH_SupplyPreviewProblem_InvalidNutrition>A usable nutrition estimate could not be obtained for this food and recipient.</INH_SupplyPreviewProblem_InvalidNutrition>
+  <INH_SupplyPreviewProblem_NotQuoted>This food could not be estimated while the recipient is unavailable or unsupported.</INH_SupplyPreviewProblem_NotQuoted>
+  <INH_SupplyPreviewProblem_HistoricalCargo>This food appears in recorded transport cargo or its original source stack. It remains protected after arrival or cancellation.</INH_SupplyPreviewProblem_HistoricalCargo>
+  <INH_SupplyPreviewProblem_HistoricalJourneySupply>This food appears in recorded travel supplies or their original source stack. It remains protected by that history.</INH_SupplyPreviewProblem_HistoricalJourneySupply>
+  <INH_SupplyPreviewProblem_Unknown>A current condition prevents this food from being assessed. Recheck the occupant and original caravan.</INH_SupplyPreviewProblem_Unknown>
+</LanguageData>

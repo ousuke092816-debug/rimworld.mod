@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M1 頭部素材の比較</title>
+<style>
+:root { --sprite-size:96px; color-scheme:dark; font:16px/1.7 system-ui,sans-serif; background:#151a1e; color:#e6e3dd }
+body { max-width:950px; margin:40px auto; padding:0 24px }
+h1 { font-size:24px; margin:0 0 10px }
+p { color:#bac2c5; margin:0 0 24px }
+.controls { display:flex; flex-wrap:wrap; gap:20px; align-items:center; margin-bottom:24px }
+button { font:inherit; color:inherit; background:#303a40; border:1px solid #65737c; border-radius:5px; padding:5px 14px; cursor:pointer }
+input { width:180px; vertical-align:middle }
+.grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px }
+figure { margin:0; border:1px solid #46525a; border-radius:8px; overflow:hidden }
+.stage { height:220px; display:flex; align-items:center; justify-content:center; background:#333e43 }
+.light .stage { background:#ece8df }
+img { width:var(--sprite-size); height:var(--sprite-size); object-fit:contain }
+figcaption { padding:8px 12px; color:#d1d8db; font-size:14px }
+small { display:block; margin:24px 0; color:#9faeb4 }
+a { color:#cbb688 }
+@media(max-width:600px) { body { margin:20px auto; padding:0 14px } .stage { height:180px } .grid { gap:8px } figcaption { padding:6px; font-size:12px } }
+</style>
+<h1>M1 星墓 — 男女・方向別の頭部</h1>
+<p>素材の縮小時の見え方を比較するためのプレビューです。RimWorld 1.7やHARの描画結果ではありません。</p>
+<div class="controls">
+ <label>表示サイズ <input id="size" type="range" min="32" max="192" step="16" value="96"> <output id="value">96 px</output></label>
+ <button id="background" type="button">明るい背景に変更</button>
+</div>
+<div class="grid">
+ <figure><div class="stage"><img src="M1Male_Head_south.png" alt="男性の正面"></div><figcaption>男性・south</figcaption></figure>
+ <figure><div class="stage"><img src="M1Male_Head_east.png" alt="男性の右向き"></div><figcaption>男性・east</figcaption></figure>
+ <figure><div class="stage"><img src="M1Male_Head_north.png" alt="男性の後ろ向き"></div><figcaption>男性・north</figcaption></figure>
+ <figure><div class="stage"><img src="M1Female_Head_south.png" alt="女性の正面"></div><figcaption>女性・south</figcaption></figure>
+ <figure><div class="stage"><img src="M1Female_Head_east.png" alt="女性の右向き"></div><figcaption>女性・east</figcaption></figure>
+ <figure><div class="stage"><img src="M1Female_Head_north.png" alt="女性の後ろ向き"></div><figcaption>女性・north</figcaption></figure>
+</div>
+<small>縮小はブラウザ上の表示のみです。元PNGは加工していません。実描画サイズ・首の位置・装備との重なりは未確認です。</small>
+<a href="README.md">素材の記録</a>
+<script>
+const size=document.getElementById('size'), value=document.getElementById('value');
+size.addEventListener('input',()=>{document.documentElement.style.setProperty('--sprite-size',size.value+'px');value.textContent=size.value+' px'});
+document.getElementById('background').addEventListener('click',event=>{const light=document.body.classList.toggle('light');event.currentTarget.textContent=light?'暗い背景に変更':'明るい背景に変更'});
+</script>
+</html>

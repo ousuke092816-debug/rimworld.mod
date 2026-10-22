@@ -1,0 +1,48 @@
+<LanguageData>
+  <INH_MaintenanceTitle>Delegated food maintenance</INH_MaintenanceTitle>
+  <INH_MaintenanceEnable>Enable delegated food maintenance</INH_MaintenanceEnable>
+  <INH_MaintenanceEnableHint>Allows new daily food plans for stored occupants. Existing plans continue charging when disabled; stop a plan to stop its charges. Food accounting only: ordinary hunger, health, aging and production remain frozen.</INH_MaintenanceEnableHint>
+  <INH_MaintenanceHelp>Manage daily food charges for colonists and animals already stored at delegated sites. Use delegated management to store occupants or return them to their original caravan.</INH_MaintenanceHelp>
+  <INH_MaintenanceFrozenWarning>Food charges only. Stored colonists and animals' ordinary hunger, health, aging and production remain frozen; this does not simulate their daily life.</INH_MaintenanceFrozenWarning>
+  <INH_MaintenanceNoSites>No delegated site is registered. This screen does not create a site, pawn or caravan.</INH_MaintenanceNoSites>
+  <INH_MaintenanceSite>Site</INH_MaintenanceSite>
+  <INH_MaintenanceSitePosition>Registered world location: tile {0}</INH_MaintenanceSitePosition>
+  <INH_MaintenanceDisabled>Enable maintenance in the mod settings to start a new plan. Existing daily charges continue when disabled. You can still stop or resume plans and recover unfinished charges.</INH_MaintenanceDisabled>
+  <INH_MaintenanceFoodHelp>Charges use eligible food in each stored occupant's own inventory. Available food and daily demand are shown in nutrition units.</INH_MaintenanceFoodHelp>
+  <INH_MaintenanceReadUnavailable>The site or its stored occupants could not be read. Reopen this screen after checking the game state.</INH_MaintenanceReadUnavailable>
+  <INH_MaintenanceResidents>Stored occupants and maintenance plans</INH_MaintenanceResidents>
+  <INH_MaintenanceNoResidents>No stored occupants or maintenance plans at this site.</INH_MaintenanceNoResidents>
+  <INH_MaintenancePerson>Colonist</INH_MaintenancePerson>
+  <INH_MaintenanceAnimal>Animal</INH_MaintenanceAnimal>
+  <INH_MaintenanceResidentRow>{0} · {1}</INH_MaintenanceResidentRow>
+  <INH_MaintenanceScheduleRow>{0} · {1} · {2}</INH_MaintenanceScheduleRow>
+  <INH_MaintenanceNutrition>Available food: {0} nutrition · daily demand: {1} nutrition</INH_MaintenanceNutrition>
+  <INH_MaintenanceNotStarted>Daily maintenance has not started.</INH_MaintenanceNotStarted>
+  <INH_MaintenanceDates>Started: {0} · last paid: {1} · next charge: {2}</INH_MaintenanceDates>
+  <INH_MaintenanceStart>Start daily maintenance</INH_MaintenanceStart>
+  <INH_MaintenanceStop>Stop maintenance</INH_MaintenanceStop>
+  <INH_MaintenanceResume>Resume maintenance</INH_MaintenanceResume>
+  <INH_MaintenanceStage_Active>Active</INH_MaintenanceStage_Active>
+  <INH_MaintenanceStage_Held>On hold</INH_MaintenanceStage_Held>
+  <INH_MaintenanceStage_Stopped>Stopped</INH_MaintenanceStage_Stopped>
+  <INH_MaintenanceStage_Released>No longer stored here</INH_MaintenanceStage_Released>
+  <INH_MaintenancePending>Unfinished food charges at this site</INH_MaintenancePending>
+  <INH_MaintenanceNoPending>No food charges are waiting for completion.</INH_MaintenanceNoPending>
+  <INH_MaintenancePendingRow>{0} · {1} · food charge awaiting completion</INH_MaintenancePendingRow>
+  <INH_MaintenanceRecover>Recover this food charge</INH_MaintenanceRecover>
+  <INH_MaintenanceUnknownResident>Stored occupant</INH_MaintenanceUnknownResident>
+  <INH_MaintenanceUnknown>Unavailable</INH_MaintenanceUnknown>
+  <INH_MaintenanceNoDay>—</INH_MaintenanceNoDay>
+  <INH_MaintenanceDay>Day {0}</INH_MaintenanceDay>
+  <INH_MaintenanceProblem_Unlocated>This older site has no registered world location. Daily maintenance cannot start here.</INH_MaintenanceProblem_Unlocated>
+  <INH_MaintenanceProblem_AnchorMissing>The original caravan is missing. No replacement caravan is created.</INH_MaintenanceProblem_AnchorMissing>
+  <INH_MaintenanceProblem_ResidentUnavailable>The stored original is unavailable for maintenance. Check its status.</INH_MaintenanceProblem_ResidentUnavailable>
+  <INH_MaintenanceProblem_CargoReserved>This food belongs to a transport's reserved cargo and cannot be charged here.</INH_MaintenanceProblem_CargoReserved>
+  <INH_MaintenanceProblem_Unsupported>The stored occupant or food is not supported by this maintenance prototype.</INH_MaintenanceProblem_Unsupported>
+  <INH_MaintenanceProblem_Pending>An unfinished operation needs recovery before another daily charge.</INH_MaintenanceProblem_Pending>
+  <INH_MaintenanceProblem_Shortage>Not enough eligible food for the daily charge. Maintenance is on hold.</INH_MaintenanceProblem_Shortage>
+  <INH_MaintenanceProblem_DayGap>A scheduled day was missed. Maintenance is on hold; missed days are not charged automatically.</INH_MaintenanceProblem_DayGap>
+  <INH_MaintenanceProblem_ResidenceChanged>The occupant is no longer stored at this site. This plan has ended.</INH_MaintenanceProblem_ResidenceChanged>
+  <INH_MaintenanceProblem_Unknown>Maintenance needs attention. Check the occupant, original caravan and available food.</INH_MaintenanceProblem_Unknown>
+  <INH_MaintenanceCurrentCondition>Current condition: {0}</INH_MaintenanceCurrentCondition>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Inheritance.Core.ModuleDef>
+    <defName>INH_Core</defName>
+    <label>inheritance core</label>
+    <description>Shared foundation of the Inheritance series.</description>
+    <packageId>inheritance.core</packageId>
+    <protocolVersion>2</protocolVersion>
+    <moduleSchemaVersion>9</moduleSchemaVersion>
+  </Inheritance.Core.ModuleDef>
+</Defs>
